@@ -1,6 +1,7 @@
 const path = require(`path`);
 
 module.exports = app => {
+// Get Routes that lead to the HTML pages
   app.get(`/`, (req, res) => {
     res.sendFile(path.join(__dirname, `../public/index.html`));
   });

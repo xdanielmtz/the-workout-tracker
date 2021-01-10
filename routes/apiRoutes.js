@@ -1,6 +1,7 @@
 const db = require(`../models`);
 
 module.exports = app => {
+// Get Routes
   app.get(`/api/workouts/`, (req, res) => {
     db.Workout.find({})
 
@@ -11,6 +12,7 @@ module.exports = app => {
         res.json(err);
       });
   });
+
   app.get(`/api/workouts/range`, (req, res) => {
     db.Workout.find({})
       .sort({ day: -1 })
@@ -21,6 +23,7 @@ module.exports = app => {
         res.json(err);
       });
   });
+// ================================================
 
   app.post(`/api/workouts`, (req, res) => {
     db.Workout.create({})

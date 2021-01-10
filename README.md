@@ -9,7 +9,6 @@
 * [Contributing](#contribution)
 * [Questions](#questions)
 * [Screenshot](#screenshot)
-* [Walk-Through-Video](#walk-through-vid)
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [License](#license)
@@ -45,10 +44,6 @@ If you have any questions contact us through email:
 
 ## Screenshot
 ![Futbol Page](documents/football-futbol-ss.jpg)
-
-
-## Walk-Through-Video
-
 
 ## Deployment
 
