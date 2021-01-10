@@ -1,10 +1,10 @@
 const express = require(`express`);
 const logger = require(`morgan`);
 const mongoose = require(`mongoose`);
-const htmlRoutes = require(`./routes/views`);
-const apiRoutes = require(`./routes/api`);
+const htmlRoutes = require(`./routes/htmlRoutes.js`);
+const apiRoutes = require(`./routes/apiRoutes.js`);
 
-const PORT = 3000;
+const PORT = 8080;
 
 const app = express();
 
