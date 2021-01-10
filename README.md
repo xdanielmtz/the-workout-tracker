@@ -11,9 +11,9 @@
 * [Screenshot](#screenshot)
 * [Deployment](#deployment)
 * [Credits](#credits)
-* [License](#license)
 
 ## Description
+the-workout-tracker is a fitness app. As the name suggests, it allows users to keep track of their workouts or exercises. From resistance and cardio, the user The app also has detailed graphs and charts that are displayed to the user pertaining to their workouts. 
 
 ## Installation
 Follow these steps to view the application!
@@ -27,10 +27,19 @@ Follow these steps to view the application!
 7. Enjoy
 
 ## Usage
+Upon first entering the app, the user is presented with a beautiful UI. They have the option to either continue their workout or if they are new they can select a new workout. On the nav bar we have the option to go to the workout dashboard and see the detailed graphs and charts about our workouts. If the user selects 'add exercise', they are presented with a dropdown and are able to select cardio or resistance based exercises. Depending on which they choose, they will be presented with input boxes from exercise name, 
+duration, reps, sets, etc. 
+
 
 ## Tools Used
-This application was developed using these wonderful technologies:
-
+This application was developed using these technologies:
+HTML
+CSS
+Express
+Morgan
+MongoDB
+Mongoose
+Javascript
 
 ## Contribution
 IF you wish to contribute, here is how:
@@ -39,36 +48,13 @@ CLONE with ssh and view it on your local machine.
 WHEN you have made your contributions, run git push and I will review for a merge.
 
 ## Questions
-If you have any questions contact us through email:
+If you have any questions contact me through email:
     (Daniel Martinez) - [xdanielmtz@gmail.com]
 
 ## Screenshot
-![Futbol Page](documents/football-futbol-ss.jpg)
+![Home Page](assets/fitness-tracker-ss.jpg)
 
 ## Deployment
 
-
 ## Credits
-
-## License
-MIT License
-
-Copyright (c) 2020
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+I would like to give credits to my instructor, Jonathan Watson for providing me with the information needed to complete this assignment. 
